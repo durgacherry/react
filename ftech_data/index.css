@@ -1,0 +1,23 @@
+.p-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 16px;
+}
+.card{
+    margin: 16px;
+    width: 280px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+}
+.card img {
+    width: 80%;
+    height: 180px;
+    object-fit: contain;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out ;
+}
